@@ -54,13 +54,7 @@ h2 {
     padding: 2rem 2rem;
     text-align: center;
 }
-.about-image {
-    display: inline-block;
-    border: 1px solid red;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-}
-.about-text {
+.about-content {
     display: inline-block;
     border: 1px solid red;
     padding: 1rem 1rem;
@@ -74,7 +68,6 @@ h2 {
     align-items: center;
 }
 .factions1 {
-    width: 1200px;
     border: 1px solid black;
     margin: 1rem;
     padding: 1rem 1rem;
@@ -83,12 +76,24 @@ h2 {
 .faction {
     display: inline-block;
     border: 1px solid red;
+    padding: 2rem 2rem;
+    vertical-align: middle;
+}
+.factions2 {
+    border: 1px solid black;
+    margin: 1rem;
     padding: 1rem 1rem;
+    text-align: center;
+}
+.faction2 {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 2rem 2rem;
     vertical-align: middle;
 }
 .cat {
     width: 500px;
-    height: 600px;
+    height: 550px;
     background-color: lightsalmon;
 }
 .cat img{
@@ -96,7 +101,7 @@ h2 {
 }
 .eyrie {
     width: 500px;
-    height: 600px;
+    height: 550px;
     background-color: lightblue;
 }
 .eyrie img{
@@ -126,6 +131,7 @@ h2 {
     height: 100px;
 }
 .nav {
+    width: 80%;
     position: sticky;
     margin: 20px auto;
     z-index: 1;
@@ -137,18 +143,15 @@ h2 {
 }
 .logo img{
     width: 100px;
-    margin: 20px;
-    vertical-align: center;
 }
 .nav-links {
     flex: 1;
     text-align: right;
-    vertical-align: center;
 }
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    margin: 20px;
+    margin: 0 20px;
     color: white;
     text-decoration: none;
 }
