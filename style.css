@@ -29,10 +29,12 @@ h1 {
 
 .about {
     background-color: grey;
-    padding: 10rem 5rem;
+    padding: 5rem 5rem;
 }
 .about img{
     width: 400px;
+    align-items: left;
+    margin: 20px;
 }
 
 .factions {
@@ -93,6 +95,7 @@ h1 {
 .nav-links {
     flex: 1;
     text-align: right;
+    vertical-align: center;
 }
 .nav-links ul li{
     list-style: none;
@@ -105,7 +108,6 @@ h1 {
 .footer {
     background-color: rgba(89, 77, 78, 1);
     height: 5rem;
-    margin: 20px;
     color: white;
     text-decoration: none;
     align-items: center;
@@ -113,4 +115,12 @@ h1 {
 .email {
     text-align: left;
     vertical-align: center;
+    margin: 20px;
+}
+.socialmedia {
+    align-items: center;
+    vertical-align: right;
+    display: inline-block;
+    margin: 0 20px;
+    color: white;
 }
