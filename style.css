@@ -23,6 +23,10 @@ body {
     padding: 10rem 5rem;
 }
 
+.header {
+    align-items: right;
+    background-color: rgba(89, 77, 78, 1);
+}
 .footer {
     background-color: rgba(89, 77, 78, 1);
 }
