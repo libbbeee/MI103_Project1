@@ -6,17 +6,20 @@ body {
 
 h1 {
     color: white;
-    font-size: 150px;
+    font-size: 125px;
     text-transform: uppercase;
     font-family: Kaisei Decol;
     font-weight: bold;
 }
 h2 {
     color: white;
-    font-size: 50px;
+    font-size: 45px;
     text-transform: uppercase;
     font-family: Kaisei Decol;
     font-weight: bold;
+}
+.header {
+    text-align: right;
 }
 .hero,
 .options,
@@ -47,20 +50,21 @@ h2 {
 }
 
 .factions {
-    width: 500px;
-    height: 700px;
     border: 0;
     padding: 20px;
     margin: 20px;
     align-items: center;
 }
 .factions1 {
+    width: 1200px;
     border: 1px solid black;
     margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
 }
 .cat {
+    width: 500px;
+    height: 700px;
     background-color: lightsalmon;
     display: inline-block;
     border: 1px solid red;
@@ -71,6 +75,8 @@ h2 {
     width: 400px;
 }
 .eyrie {
+    width: 500px;
+    height: 700px;
     display: inline-block;
     border: 1px solid red;
     padding: 1rem 1rem;
@@ -81,6 +87,8 @@ h2 {
     width: 400px;
 }
 .woodland {
+    width: 500px;
+    height: 700px;
     background-color: lightgreen;
     display: inline-block;
 }
@@ -88,6 +96,8 @@ h2 {
     width: 400px;
 }
 .vagabond {
+    width: 500px;
+    height: 700px;
     background-color: lightgoldenrodyellow;
     display: inline-block;
 }
@@ -145,7 +155,7 @@ h2 {
     display: inline-block;
 }
 .socialmedia img {
-    width: 100px;
+    width: 42px;
     margin: 20px;
 }
 
