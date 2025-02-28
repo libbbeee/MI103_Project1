@@ -15,7 +15,7 @@ body {
 
 .hero {
     background-image: 
-    linear-gradient(to right, rgba(255,0,0,0), rgba(89, 77, 78, 1)),
+    linear-gradient(to right, rgba(89, 77, 78, 0), rgba(89, 77, 78, 1)),
     url(https://norerolls.co.uk/wp-content/uploads/2023/02/root-top.jpg);
     height: 100vh;
     clip-path: polygon(50% 100%, 100% 80%, 100% 0, 0 0, 0 80%);
@@ -26,7 +26,7 @@ body {
     padding: 10rem 5rem;
 }
 .about img{
-    width: 300px;
+    width: 400px;
 }
 
 .factions {
@@ -35,10 +35,10 @@ body {
     border: 0;
     padding: 20px;
     margin: 20px;
-}
-.factions1 {
+    align-items: center;
     display: inline-block;
 }
+
 .cat {
     background-color: lightsalmon;
 }
@@ -61,7 +61,7 @@ body {
     background-color: lightgoldenrodyellow;
 }
 .vagabond img{
-    width: 400px;
+    width: 350px;
 }
 
 .navbar{
