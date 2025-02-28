@@ -14,7 +14,9 @@ body {
 }
 
 .hero {
-    background-image: url(https://norerolls.co.uk/wp-content/uploads/2023/02/root-top.jpg), linear-gradient(to right, rgba(255,0,0,0), rgba(89, 77, 78, 1));
+    background-image: 
+    linear-gradient(to right, rgba(255,0,0,0), rgba(89, 77, 78, 1)),
+    url(https://norerolls.co.uk/wp-content/uploads/2023/02/root-top.jpg);
     height: 100vh;
     clip-path: polygon(50% 100%, 100% 80%, 100% 0, 0 0, 0 80%);
 }
