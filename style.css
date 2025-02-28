@@ -4,6 +4,12 @@ body {
     margin: 0;
 }
 
+h1 {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Kaisei Decol;
+}
 .hero,
 .options,
 .about{
@@ -81,6 +87,8 @@ body {
 }
 .logo img{
     width: 100px;
+    margin: 20px;
+    vertical-align: center;
 }
 .nav-links {
     flex: 1;
@@ -103,5 +111,6 @@ body {
     align-items: center;
 }
 .email {
-    text-align: right;
+    text-align: left;
+    vertical-align: center;
 }
