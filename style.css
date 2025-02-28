@@ -25,46 +25,39 @@ body {
     background-color: grey;
     padding: 10rem 5rem;
 }
+.about img{
+    width: 300px;
+}
 
-.cat {
-    width: 550px;
-    height: 740px;
+.factions {
+    width: 500px;
+    height: 700px;
     border: 0;
     padding: 20px;
     margin: 20px;
+}
+.factions1 {
+    display: inline-block;
+}
+.cat {
     background-color: lightsalmon;
 }
 .cat img{
     width: 400px;
 }
 .eyrie {
-    width: 550px;
-    height: 740px;
-    border: 0;
-    padding: 20px;
-    margin: 20px;
     background-color: lightblue;
 }
 .eyrie img{
     width: 400px;
 }
 .woodland {
-    width: 550px;
-    height: 740px;
-    border: 0;
-    padding: 20px;
-    margin: 20px;
     background-color: lightgreen;
 }
 .woodland img{
     width: 400px;
 }
 .vagabond {
-    width: 550px;
-    height: 740px;
-    border: 0;
-    padding: 20px;
-    margin: 20px;
     background-color: lightgoldenrodyellow;
 }
 .vagabond img{
@@ -73,7 +66,7 @@ body {
 
 .navbar{
     background-color: rgba(89, 77, 78, 1);
-    height: 5rem;
+    height: 100px;
 }
 .nav {
     width: 80%;
@@ -104,4 +97,11 @@ body {
 .footer {
     background-color: rgba(89, 77, 78, 1);
     height: 5rem;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+.email {
+    text-align: right;
 }
