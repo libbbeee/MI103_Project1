@@ -58,9 +58,36 @@ body {
     margin: 20px;
     background-color: lightgoldenrodyellow;
 }
-.header {
-    align-items: right;
+.navbar{
     background-color: rgba(89, 77, 78, 1);
+    height: 5rem;
+}
+.nav {
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 150px;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
 }
 .footer {
     background-color: rgba(89, 77, 78, 1);
