@@ -80,25 +80,23 @@ h2 {
     padding: 1rem 1rem;
     text-align: center;
 }
-.cat {
-    width: 500px;
-    height: 700px;
-    background-color: lightsalmon;
+.faction {
     display: inline-block;
     border: 1px solid red;
     padding: 1rem 1rem;
     vertical-align: middle;
+}
+.cat {
+    width: 500px;
+    height: 600px;
+    background-color: lightsalmon;
 }
 .cat img{
     width: 400px;
 }
 .eyrie {
     width: 500px;
-    height: 700px;
-    display: inline-block;
-    border: 1px solid red;
-    padding: 1rem 1rem;
-    vertical-align: middle;
+    height: 600px;
     background-color: lightblue;
 }
 .eyrie img{
