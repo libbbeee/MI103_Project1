@@ -34,6 +34,9 @@ body {
     margin: 20px;
     background-color: lightsalmon;
 }
+.cat img{
+    width: 400px;
+}
 .eyrie {
     width: 550px;
     height: 740px;
@@ -41,6 +44,9 @@ body {
     padding: 20px;
     margin: 20px;
     background-color: lightblue;
+}
+.eyrie img{
+    width: 400px;
 }
 .woodland {
     width: 550px;
@@ -50,6 +56,9 @@ body {
     margin: 20px;
     background-color: lightgreen;
 }
+.woodland img{
+    width: 400px;
+}
 .vagabond {
     width: 550px;
     height: 740px;
@@ -58,6 +67,10 @@ body {
     margin: 20px;
     background-color: lightgoldenrodyellow;
 }
+.vagabond img{
+    width: 400px;
+}
+
 .navbar{
     background-color: rgba(89, 77, 78, 1);
     height: 5rem;
@@ -74,7 +87,7 @@ body {
     flex-basis: 20%;
 }
 .logo img{
-    width: 150px;
+    width: 100px;
 }
 .nav-links {
     flex: 1;
@@ -84,11 +97,10 @@ body {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
-}
-.nav-links ul li a{
     color: white;
     text-decoration: none;
 }
+
 .footer {
     background-color: rgba(89, 77, 78, 1);
     height: 5rem;
