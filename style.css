@@ -65,7 +65,7 @@ h3 {
 .about-content {
     display: inline-block;
     border: 1px solid red;
-    padding: 1rem 1rem;
+    padding: 20px 20px;
     vertical-align: middle;
 }
 
@@ -78,7 +78,7 @@ h3 {
 .factions1 {
     border: 1px solid black;
     margin: 1rem;
-    padding: 1rem 1rem;
+    padding: 20px 20px;
     text-align: center;
 }
 .faction {
