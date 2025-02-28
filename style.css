@@ -1,8 +1,9 @@
 body {
     background-color: lightgrey;
-    padding: 0;
-    margin: 0;
+    padding: 20rem;
+    margin: 20rem;
 }
+
 .hero,
 .about{
     display: flex;
@@ -10,12 +11,18 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
 .hero {
     background-image: url(https://norerolls.co.uk/wp-content/uploads/2023/02/root-top.jpg);
-    height: 75vh;
+    height: 100vh;
     clip-path: polygon(50% 100%, 100% 80%, 100% 0, 0 0, 0 80%);
 }
+
 .about {
     background-color: grey;
     padding: 10rem 5rem;
+}
+
+.footer {
+    background-color: rgba(89, 77, 78, 1);
 }
