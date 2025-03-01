@@ -84,6 +84,7 @@ h4 {
 
 .hero {
     display: flex;
+    flex-direction: column;
     background-image: 
     linear-gradient(to right, rgba(89, 77, 78, 0), rgba(89, 77, 78, 1) 75%),
     url(https://norerolls.co.uk/wp-content/uploads/2023/02/root-top.jpg);
@@ -119,11 +120,11 @@ h4 {
     padding: 40px 40px;
 }
 .about-content img{
-    width: 500px;
+    width: 450px;
 }
 .about-text {
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 200px;
 }
 
 .options {
