@@ -86,7 +86,7 @@ h3 {
     text-align: right;
 }
 .name {
-    align-content: right;
+    vertical-align: right;
     margin: 20px;
 }
 .header {
@@ -136,7 +136,7 @@ h3 {
     align-items: center;
 }
 .factions1 {
-    border: 1px solid black;
+    border: 0 solid black;
     margin: 1rem;
     padding: 20px 20px;
     text-align: center;
@@ -145,12 +145,12 @@ h3 {
     width: 500px;
     height: 550px;
     display: inline-block;
-    border: 1px solid red;
+    border: 0 solid red;
     padding: 1rem 1rem;
     vertical-align: middle;
 }
 .factions2 {
-    border: 1px solid black;
+    border: 0 solid black;
     margin: 1rem;
     padding: 1rem 1rem;
     text-align: center;
@@ -159,7 +159,7 @@ h3 {
     width: 500px;
     height: 550px;
     display: inline-block;
-    border: 1px solid red;
+    border: 0px solid red;
     padding: 20px 20px;
     vertical-align: middle;
 }
