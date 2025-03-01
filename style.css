@@ -12,7 +12,7 @@ body {
     background-color:  rgba(89, 77, 78, 1);
 }
 nav{
-    width: 80%;
+    width: 90%;
     position: sticky;
     margin: 10px auto;
     z-index: 1;
@@ -111,13 +111,13 @@ h3 {
 .about-content {
     display: inline-block;
     border: 1px solid red;
-    padding: 10px 10px;
+    padding: 20px 20px;
 }
 .about-content img{
-    width: 300px;
+    width: 400px;
 }
 .about-text {
-    width: 300px;
+    width: 400px;
 }
 
 .options {
@@ -230,6 +230,8 @@ nav{
 .email{
     flex-basis: 20%;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
 }
 .sm-links{
     flex: 1;
