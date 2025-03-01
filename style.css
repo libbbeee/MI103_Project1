@@ -29,7 +29,7 @@ h3 {
 .header {
     text-align: right;
 }
-.hero,
+
 .options,
 .about{
     display: flex;
@@ -73,6 +73,7 @@ h3 {
 .options {
     background-color: grey;
     color: white;
+    align-items: center;
 }
 .options img {
     width: 50px;
