@@ -6,7 +6,7 @@ body {
 
 .main {
     width: 100%;
-    height: 10vh;
+    height: 15vh;
     position: relative;
     overflow: hidden;
     background-color:  rgba(89, 77, 78, 1);
@@ -78,6 +78,7 @@ h3 {
 }
 
 .hero {
+    display: flex;
     background-image: 
     linear-gradient(to right, rgba(89, 77, 78, 0), rgba(89, 77, 78, 1) 75%),
     url(https://norerolls.co.uk/wp-content/uploads/2023/02/root-top.jpg);
@@ -93,6 +94,7 @@ h3 {
     padding: 10px;
 }
 .subhead {
+    vertical-align: right;
     padding: 10px;
     width: 400px;
 }
@@ -111,7 +113,7 @@ h3 {
 .about-content {
     display: inline-block;
     border: 1px solid red;
-    padding: 20px 20px;
+    padding: 40px 40px;
 }
 .about-content img{
     width: 400px;
@@ -198,19 +200,6 @@ h3 {
 .vagabond img{
     width: 325px;
 }
-
-.parent {
-    border: 1px solid black;
-    margin: 1rem;
-    padding: 2rem 2rem;
-    text-align: center;
-  }
-.child {
-    display: inline-block;
-    border: 1px solid red;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-  }
   
   .footer {
     width: 100%;
