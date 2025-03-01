@@ -59,10 +59,11 @@ h3 {
 .about {
     border: 1px solid black;
     margin: 1rem;
-    padding: 1rem 1rem;
+    padding: 20px 20px;
     text-align: center;
 }
 .about-content {
+    width: 550;
     display: inline-block;
     border: 1px solid red;
     padding: 20px 20px;
@@ -109,7 +110,7 @@ h3 {
     background-color: lightsalmon;
 }
 .cat img{
-    width: 400px;
+    width: 350px;
 }
 .eyrie {
     width: 500px;
@@ -117,25 +118,25 @@ h3 {
     background-color: lightblue;
 }
 .eyrie img{
-    width: 400px;
+    width: 350px;
 }
 .woodland {
     width: 500px;
-    height: 700px;
+    height: 550px;
     background-color: lightgreen;
     display: inline-block;
 }
 .woodland img{
-    width: 400px;
+    width: 350px;
 }
 .vagabond {
     width: 500px;
-    height: 700px;
+    height: 550px;
     background-color: lightgoldenrodyellow;
     display: inline-block;
 }
 .vagabond img{
-    width: 350px;
+    width: 300px;
 }
 
 .navbar{
