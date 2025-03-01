@@ -1,5 +1,5 @@
 body {
-    background-color: lightgrey;
+    background-color: rgba(246, 246, 246, 1);
     padding: 0;
     margin: 0;
 }
@@ -83,22 +83,22 @@ h3 {
     url(https://norerolls.co.uk/wp-content/uploads/2023/02/root-top.jpg);
     height: 100vh;
     clip-path: polygon(50% 100%, 100% 80%, 100% 0, 0 0, 0 80%);
-    text-align: right;
-    vertical-align: right;
 }
 .name {
+    text-align: right;
     vertical-align: right;
     margin: 20px;
 }
-.header {
-    align-content: right;
+.head{
     padding: 20px;
-    margin: 20px;
+}
+.subhead {
+    padding: 10px;
     width: 400px;
 }
 
 .section1 {
-    background-color: white;
+    background-color: rgba(246, 246, 246, 1);
     padding: 4rem 4rem;
 }
 
@@ -121,7 +121,7 @@ h3 {
 }
 
 .options {
-    background-color: grey;
+    background-color: rgba(122, 129, 116, 1);
     align-items: center;
     text-align: center;
 }
