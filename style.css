@@ -4,6 +4,15 @@ body {
     margin: 0;
 }
 
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color:  rgba(89, 77, 78, 1);
+}
+
+
 h1 {
     color: white;
     font-size: 125px;
@@ -206,15 +215,16 @@ h3 {
 .contact{
     border: 1px solid black;
     margin: 1rem;
-    padding: 3rem 3rem;
+    padding: 1rem 1rem;
     text-align: center;
 }
 
 .socialmedia {
     display: inline-block;
     border: 1px solid red;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
     vertical-align: middle;
+    border-spacing: 20px;
 }
 .socialmedia img {
     width: 42px;
