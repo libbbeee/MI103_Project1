@@ -94,9 +94,7 @@ h3 {
     padding: 10px;
 }
 .subhead {
-    vertical-align: right;
     padding: 10px;
-    width: 400px;
 }
 
 .section1 {
@@ -116,10 +114,11 @@ h3 {
     padding: 40px 40px;
 }
 .about-content img{
-    width: 400px;
+    width: 500px;
 }
 .about-text {
-    width: 400px;
+    width: 500px;
+    height: 400px;
 }
 
 .options {
