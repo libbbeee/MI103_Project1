@@ -6,7 +6,7 @@ body {
 
 .main {
     width: 100%;
-    height: 50vh;
+    height: 20vh;
     position: relative;
     overflow: hidden;
     background-color:  rgba(89, 77, 78, 1);
@@ -202,7 +202,7 @@ h3 {
 
 .footer {
     background-color: rgba(89, 77, 78, 1);
-    height: 5rem;
+    height: 25vh;
     color: white;
     text-decoration: none;
     align-items: center;
@@ -217,7 +217,7 @@ h3 {
 .socialmedia {
     display: inline-block;
     border: 1px solid red;
-    padding: 20pxrem 5pxrem;
+    padding: 20px 20px;
     vertical-align: middle;
     border-spacing: 20px;
 }
@@ -232,7 +232,7 @@ h3 {
     padding: 2rem 2rem;
     text-align: center;
   }
-  .child {
+.child {
     display: inline-block;
     border: 1px solid red;
     padding: 1rem 1rem;
