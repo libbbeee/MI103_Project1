@@ -110,7 +110,6 @@ h3 {
     display: inline-block;
     border: 1px solid red;
     padding: 10px 10px;
-    vertical-align: middle;
 }
 .about-content img{
     width: 300px;
@@ -198,33 +197,6 @@ h3 {
     width: 325px;
 }
 
-
-.foot {
-    background-color: rgba(89, 77, 78, 1);
-    height: 25vh;
-    color: white;
-    text-decoration: none;
-    align-items: center;
-}
-.contact{
-    border: 1px solid black;
-    margin: 1rem;
-    padding: 20px 20px;
-    text-align: center;
-}
-
-.socialmedia {
-    display: inline-block;
-    border: 1px solid red;
-    padding: 20px 20px;
-    vertical-align: middle;
-    border-spacing: 20px;
-}
-.socialmedia img {
-    width: 42px;
-    margin: 20px;
-}
-
 .parent {
     border: 1px solid black;
     margin: 1rem;
@@ -243,7 +215,7 @@ h3 {
     height: 20vh;
     position: relative;
     overflow: hidden;
-    background-color:  powderblue;
+    background-color: rgba(89, 77, 78, 1);
 }
 nav{
     width: 80%;
