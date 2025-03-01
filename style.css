@@ -19,6 +19,25 @@ nav{
     display: flex;
     align-items: center;
 }
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+}
 
 
 h1 {
@@ -81,7 +100,7 @@ h3 {
     padding: 4rem 4rem;
 }
 .section1 img{
-    width: 100px;
+    width: 200px;
     align-items: left;
     margin: 20px;
 }
