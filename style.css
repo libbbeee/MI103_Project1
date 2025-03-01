@@ -84,6 +84,7 @@ h4 {
 
 .hero {
     display: flex;
+    align-items: right;
     flex-direction: column;
     background-image: 
     linear-gradient(to right, rgba(89, 77, 78, 0), rgba(89, 77, 78, 1) 75%),
