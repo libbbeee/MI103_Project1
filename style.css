@@ -25,6 +25,9 @@ h3 {
     font-family: Kaisei Decol;
     font-weight: bold;
 }
+.white{
+    color: white;
+}
 
 .header {
     text-align: right;
@@ -52,7 +55,7 @@ h3 {
     padding: 4rem 4rem;
 }
 .section1 img{
-    width: 400px;
+    width: 100px;
     align-items: left;
     margin: 20px;
 }
@@ -63,20 +66,22 @@ h3 {
     text-align: center;
 }
 .about-content {
-    width: 550;
     display: inline-block;
     border: 1px solid red;
     padding: 20px 20px;
     vertical-align: middle;
 }
+.about-text {
+    width: 400px;
+}
 
 .options {
     background-color: grey;
-    color: white;
     align-items: center;
+    text-align: center;
 }
 .options img {
-    width: 50px;
+    width: 150px;
 }
 
 .factions {
